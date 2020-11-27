@@ -1,0 +1,2872 @@
+* {
+    margin: 0;
+    padding:0;
+    outline:0;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    margin: 0;
+}
+
+@import url('https://fonts.maateen.me/solaiman-lipi/font.css');
+@import url('https://fonts.maateen.me/siyam-rupali/font.css');
+/*============================basic css part start================================*/
+
+/*========================header part start======================*/
+#header {
+    padding-top: 26px;
+    padding-bottom: 24px;
+    background: #030211e8;
+}
+
+.header-left ul li {
+    display: inline-block;
+    margin-right: 27px;
+    color: #fff;
+    font-family: 'lato', sans-serif;
+    font-weight: 500px;
+    font-size: 16px;
+    text-transform: capitalize;
+    cursor: pointer;
+
+}
+
+.header-left ul {
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+.header-left ul li i {
+    margin-right: 8px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #e81a46;
+}
+
+.header-right i {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: #fff;
+    text-align: center;
+    line-height: 30px;
+    margin: 0 5px;
+    font-size: 14px;
+    color: #190f3c;
+}
+
+.header-right i:hover {
+    color: #e81a46;
+}
+
+/*====================header part end===========================*/
+
+
+/*====================menu part start===========================*/
+.navbar {
+    line-height: 100px;
+    padding: 0;
+    background: #fff;
+    box-shadow: 0 2px 0px #ede2e2;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 14px;
+    padding-left: 14px;
+    font-family: 'SiyamRupali', sans-serif;
+    color: #010f0a;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link:hover {
+    color: #e81a46;
+}
+
+.nav-link {
+    padding: 0;
+}
+
+.navbar-logo {
+    padding-bottom: 6px;
+}
+
+.navbar ul li {
+    position: relative;
+}
+
+/*
+
+.dropdown-item {
+	line-height: 40px;
+}
+
+.mega-menu {
+	width: 1033px;
+	overflow: hidden;
+	padding: 10px;
+}
+.navbar-expand-lg .navbar-nav .dropdown-menu {
+	padding: 30px;
+}
+.dropdown-menu {
+	position: absolute;
+	top: 100%;
+	left: -569%;
+}
+.mega-part1 h3 {
+	font-family: 'lato','SiyamRupali', sans-serif;
+	font-weight: 600;
+	font-size: 18px;
+	color: #444;
+	text-transform: uppercase;
+	padding-bottom: 15px;
+}
+.mega-part1 a{
+   line-height: 35px;
+    font-family: 'Roboto','SiyamRupali', sans-serif;
+	font-weight:300;
+	font-size: 13px;
+	color:#444;
+	text-transform: capitalize;
+	transition: all linear 0.2s;
+}
+.mega-part1 a:hover{
+	
+	color:#e81a46;
+}
+.mega-part1 p{
+	line-height: 35px;
+}
+*/
+
+
+
+
+
+.navbar ul li ul {
+    position: absolute;
+    background: #fff;
+    width: 200px;
+    color: #444;
+    left: 10px;
+    top: 150px;
+    line-height: 40px;
+    padding-left: 0;
+    visibility: hidden;
+    opacity: 0;
+    transition: linear all 0.2s;
+    border-top: 3px solid #e81a46;
+    z-index: 111;
+}
+
+.navbar ul li:hover > ul {
+    opacity: 1;
+    visibility: visible;
+    top: 100px;
+
+
+}
+
+.navbar ul li ul li {
+    border-bottom: 1px solid #ddd;
+    padding-left: 15px;
+    font-family: 'SiyamRupali', sans-serif;
+    color: #444;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: capitalize;
+
+}
+
+.navbar ul li ul li:hover {
+    background: #66666617;
+}
+
+.navbar ul li ul li i {
+    font-size: 10px;
+
+
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+    color: #e81a46;
+}
+
+.navbar ul li ul li a {
+    color: #444;
+    text-decoration: none;
+    transition: all linear 0.2s;
+}
+
+/*.navbar ul li ul li a:hover{
+	padding-left:5px;
+}*/
+.navbar ul li ul li:hover > a {
+    padding-left: 10px;
+}
+
+.navbar ul li ul li ul {
+    position: absolute;
+    left: 100px;
+    top: 50px;
+    width: 200px;
+
+}
+
+.navbar ul li ul li:hover > ul {
+    top: 40px;
+
+
+}
+
+
+.last {
+    border-bottom: none !important;
+}
+
+.search input {
+    border-top: 1px solid #929799d9;
+    border-bottom:1px solid #929799d9;
+    width: 258px;
+    height: 45px;
+    border-radius: 20px;
+    padding-left: 16px;
+/*    border-left: 5px solid #e81a46;
+*/  position: relative;
+    margin-left: 28px;
+    overflow:hidden;
+
+}
+
+.search button {
+    position: absolute;
+    left: 219px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 14px;
+    color: #fff;
+    height: 44px;
+    width: 67px;
+    line-height: 40px;
+    border: none;
+    border-radius: 0px 19px 16px 0;
+    background: #e81a46;
+    cursor: pointer;
+
+}
+
+.search {
+    margin-left: 12px;
+}
+
+.search input::placeholder {
+    font-family: 'Roboto', sans-serif;
+    color: #3c4042;
+    font-size: 16px;
+    font-weight: 300;
+    border:0;
+}
+
+.search input:focus {
+    outline: 0;}
+
+.search button:hover {
+    outline: 0;
+}
+
+/*=====================menu part end===========================*/
+
+
+
+
+/*=====================category part start===========================*/
+
+.category-list ul li a {
+    font-family: 'lato', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #333;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+
+.category-list ul li {
+	padding: 9px 15px;
+	background: #fff;
+	border-bottom: 1px solid #c16d6d57;
+	position: relative;
+}
+
+.category-list ul li ul {
+    position: absolute;
+    background: #ddd;
+    width: 200px;
+    color: #333;
+    left: 160px;
+    top: 0px;
+    line-height: 30px;
+    padding-left: 0;
+
+    transition: linear all 0.2s;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 111;
+}
+
+.category-list ul li:hover > ul {
+    opacity: 1;
+    visibility: visible;
+    left: 255px;
+
+}
+
+.category-list ul li ul li {
+    font-family: 'lato', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #333;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+
+.category-list ul li:hover {
+    background: #66666617;
+}
+
+.category-list ul li:hover .list {
+    transform: rotate(90deg);
+}
+
+.category-list ul li .list {
+    position: absolute;
+    right: 15px;
+    top: 35%;
+}
+
+.category-list ul {
+    padding: 0;
+}
+
+.category-list ul .cat1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 20px 15px;
+    background: #e81a46;
+    border: 0;
+}
+
+.category-list ul .cat1:hover {
+    background: #e81a46;
+}
+
+.category-list ul {
+    margin: 0;
+}
+
+.last {
+    border-bottom: none;
+}
+
+.cat1 i {
+    padding-right: 8px;
+}
+
+
+
+
+/*========================banner  part start==========================*/
+#banner {
+    background: #f3f3f3;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.banner-img img {
+    height: 475px;
+    width: 100%;
+}
+
+.banner-item {
+    position: relative;
+}
+
+.ban-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.26)
+}
+
+.ban-text {
+    position: relative;
+    top: 32%;
+    left: 5%;
+    width: 452px;
+    /* transform: translate(-53%,-55%); */
+  
+}
+
+.banner-top {
+    position: relative;
+}
+
+.banner-left1 {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    z-index: 111;
+    transform: translateY(-50%);
+    font-size: 36px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.banner-right1 {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    z-index: 111;
+    transform: translateY(-50%);
+    font-size: 36px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.ban-text span {
+    color: #e81a46;
+}
+
+.ban-text h2 {
+    font-family: 'Roboto', 'SiyamRupali', sans-serif;
+    color: #fff;
+    font-size: 36px;
+    font-weight: 800;
+    text-transform: capitalize;
+    padding-bottom: 18px;
+}
+
+.ban-text p {
+    font-family: 'SiyamRupali', sans-serif;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.banner-btn a {
+    padding: 15px 30px;
+    border: 2px solid #e81a46;
+    font-family: 'SiyamRupali', sans-serif;
+    color: #fff;
+    background: #e81a46;
+    font-size: 14px;
+    font-weight: 600;
+    margin-right: 10px;
+    text-transform: uppercase;
+    text-decoration: none;
+    position: relative;
+    z-index: 11;
+}
+
+.banner-btn a:hover {
+    background: none;
+}
+
+.banner-btn {
+    padding-top: 27px;
+}
+
+.ban-img {
+    position: absolute;
+    top: 24%;
+    right: 8%;
+    width: 250px;
+    height: 250px;
+    background: #fff;
+    border-radius: 50%;
+    border: 1px solid #e81a46;
+}
+
+.ban-img img {
+	width: 231px;
+	height: 231px;
+	margin-top: 9px;
+	margin-left: 8px;
+	border-radius: 50%;
+}
+
+/*==========================product part start===================================*/
+
+
+#product {
+    padding-top: 60px;
+    padding-bottom: 53px;
+    position: relative;
+}
+.p-bottom{
+	 position:relative;
+}
+.left1 {
+    position: absolute;
+    top: 5.5%;
+    right: 7%;
+    font-size: 16px;
+    width: 45px;
+    height: 30px;
+    background: #e81a46;
+    text-align: center;
+    line-height: 30px;
+    color: #fff;
+    z-index: 11;
+    cursor: pointer;
+}
+
+.right1 {
+    position: absolute;
+    top: 5.5%;
+    right: 2%;
+    font-size: 16px;
+    width: 45px;
+    height: 30px;
+    background: #e81a46;
+    text-align: center;
+    line-height: 30px;
+    color: #fff;
+    z-index: 11;
+    cursor: pointer;
+}
+
+.product-slider {
+    padding: 0;
+}
+
+
+.pro-header h3 {
+    font-family: 'lato', 'SiyamRupali', sans-serif;
+    font-weight: 600;
+    color: #222;
+    font-size: 24px;
+    text-transform: capitalize;
+    position: relative;
+}
+
+.pro-header h3::before {
+    position: absolute;
+    content: '';
+    bottom: -16px;
+    left: 0;
+    width: 60px;
+    height: 4px;
+    background: #e81a46;
+    z-index: 1;
+}
+
+
+.pro-header h3::after {
+    position: absolute;
+    content: '';
+    bottom: -15px;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background: #CDD7D9;
+}
+
+.product-item {
+    border: 1px solid #c6c4c4;
+    cursor: pointer;
+    position: relative;
+}
+
+/*.product-item::before {
+	position: absolute;
+	content: '';
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(249, 246, 246, 0);
+	z-index: 111;
+}*/
+.product-item:hover .pro-img img {
+    transform: scale(1.1);
+
+}
+
+.product-item:hover .pro-name p {
+    color: #e81a46;
+
+}
+
+.pro-img img {
+    transition: all linear 0.2s;
+    /*height:250px;
+	width:220px;*/
+}
+
+.pro-top a {
+    text-decoration: none;
+}
+
+.pro-top a:focus {
+    outline: 0;
+}
+
+.product-item {
+    overflow: hidden;
+}
+
+.pro-img {
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+
+}
+
+.p-bottom {
+    margin-bottom: 48px;
+}
+
+.pro-name {
+    text-align: center;
+    background: #fff;
+    padding-top: 20px;
+    padding-bottom: 17px;
+}
+
+.pro-name p {
+    font-family: 'lato', 'SiyamRupali', sans-serif;
+    font-weight: 400;
+    color: #444;
+    font-size: 15px;
+    text-transform: uppercase;
+    margin-bottom: 0;
+    transition: all linear 0.3s;
+}
+
+.pro-top {
+    padding-top: 15px;
+}
+
+.product-btn {
+    margin-top: 20px;
+}
+
+.product-btn a:hover {
+    color: #222;
+}
+
+/*=====================banner part end===========================*/
+
+
+
+/*=====================team part start====================================*/
+#team {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background: #f3f3f3;
+}
+
+.team-top {
+    padding-top: 43px;
+}
+
+.team-item {
+	position: relative;
+	border: 1px dotted #eeedea;
+	background: #fff;
+	overflow: hidden;
+	text-align: center;
+	border-radius: 5px;
+	box-shadow: 0 4px 2px #c1b5b5;
+}
+.team-img{
+	position: relative;
+	overflow:hidden;
+}
+
+.team-overlay {
+    position: absolute;
+    bottom: -52px;
+    left: 0;
+    width: 100%;
+    height: 0;
+    background:rgb(0,0,0,.4);
+
+    transition: all linear 0.3s;
+    clip-path: polygon(49% 10%, 100% 0, 100% 60%, 100% 100%, 0 99%, 0% 60%, 0 0);
+    box-shadow: 5px 2px 2px #fdc236;
+}
+
+.team-item:hover .team-overlay {
+    height: 420px;
+}
+.team-item:hover .team-txt h5{
+	color:red;
+}
+.team-item img {
+    transition: all linear 0.3s;
+    height: 250px;
+
+}
+
+.team-item:hover img {
+    transform: scale(1.1);
+}
+
+.team-text {
+	position: absolute;
+	left: 50%;
+	top: 42%;
+	transform: translateX(-50%);
+	width: 161px;
+	text-align: center;
+}
+
+.team-txt h5{
+    font-family: 'Roboto', 'SiyamRupali', sans-serif;
+    color: #222;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 22px;
+}
+
+.team-txt p {
+    font-family: 'lato', 'SiyamRupali'sans-serif;
+    color: #444;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: capitalize;
+    padding-bottom: 10px;
+}
+.team-txt{
+	padding-top:15px;
+	padding-bottom: 8px;
+	transition: all linear 0.4s;
+}
+
+.social-icon {
+    text-align: center;
+}
+
+.social-icon i {
+	font-size: 13px;
+	margin: 0 0px;
+	width: 25px;
+	height: 25px;
+	background: red;
+	line-height: 25px;
+	border-radius: 50%;
+	text-align: center;
+	transition: all linear 0.2s;
+	color: #fff;
+}
+
+.social-icon i:hover {
+    color: #e81a46;
+    transform: scale(1.089);
+}
+
+/*=====================team part end====================================*/
+
+
+
+/*=====================best product part start====================================*/
+#project-product {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    position: relative;
+}
+
+/*.project-btn {
+	margin-top: 42px;
+	text-align: center;
+}
+.project-btn button{
+    padding:10px 30px;
+    border:1px solid #d0d0d0;
+    font-family: 'lato','SiyamRupali', sans-serif;
+    color:#b0b0b0;
+    font-size:14px;
+    font-weight: 500;
+    text-transform: capitalize;
+    margin-right: 5px;
+    background:none;
+
+}
+.project-btn button:hover {
+	background: #e81a46;
+	color: #fff;
+}
+.project-btn button:focus{
+    outline:0;
+}*/
+.project-top {
+    padding-top: 57px;
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.project-item {
+    position: relative;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+.best-product-img {
+    overflow: hidden;
+    position: relative;
+}
+
+.b-project-text {
+    padding: 10px 0;
+    background: #fff;
+}
+
+.b-project-text p {
+    font-family: 'lato', 'SiyamRupali'sans-serif;
+    color: #444;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+.project-item img {
+    width: 300px;
+    height: 300px;
+    transition: all linear 0.3s;
+
+}
+
+.project-item:hover img {
+    transform: scale(1.1);
+
+}
+
+.pro-overlay {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(104, 122, 125, 0.24);
+    transition: all linear 0.3s;
+}
+
+.pro-padding {
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+
+.pro-text {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
+
+.pro-icon i {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    color: #fff;
+    font-size: 30px;
+}
+
+.pro-icon {
+    position: absolute;
+    right: 20px;
+    bottom: 25px;
+}
+
+.pro-item-top {
+    margin-bottom: 10px;
+}
+
+.pro-padding a {
+    text-decoration: none;
+
+}
+
+.pro-padding a:focus {
+    outline: 0;
+}
+
+.pro-padding:hover .b-project-text p {
+    color: #e81a46;
+}
+
+.project-btn .mixitup-control-active {
+    color: #fff;
+    background: #e81a46;
+}
+
+.row {
+    margin-right: -9px;
+    margin-left: -9px;
+}
+
+
+
+/*.p-left1 {
+    position: absolute;
+    top: 8.5%;
+    right: 10%;
+    font-size: 16px;
+    width: 45px;
+    height: 30px;
+    background: #4eba27;
+    text-align: center;
+    line-height: 30px;
+    color: #fff;
+    z-index: 11;
+    cursor: pointer;
+}
+
+.p-right1 {
+    position: absolute;
+    top: 8.5%;
+    right: 4%;
+    font-size: 16px;
+    width: 45px;
+    height: 30px;
+    background: #4eba27;
+    text-align: center;
+    line-height: 30px;
+    color: #fff;
+    z-index: 11;
+    cursor: pointer;
+}
+*/
+/*==========================tabs part start=========================*/
+
+.project-1 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.home-page #contact {
+    background: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+
+
+.home-page .project-left {
+    padding-top: 30px;
+}
+
+.home-page .nav {
+    display: block;
+    text-align: center;
+}
+
+.nav-tabs {
+    border-bottom: 0;
+}
+
+.nav-tabs .nav-item {
+    margin-bottom: 0;
+    display: inline-block;
+    padding-bottom:5px;
+}
+
+.nav-tabs .nav-link {
+
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    color: #444;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    background: #fff;
+    padding: 10px 15px;
+    font-size: 16px;
+    font-family: 'lato', 'SiyamRupali'sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin: 0 5px;
+    border: 1px solid #ddd;
+}
+
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+    color: #fff;
+    background-color: #e81a46;
+    border: 1px solid #e81a46;
+    border-radius: 5px;
+}
+
+.nav-tabs .nav-link:focus,
+.nav-tabs .nav-link:hover {
+    border-color: #e81a46;
+    background: #e81a46;
+    color: #fff;
+}
+
+
+
+
+
+
+
+/*=====================best product part end====================================*/
+
+
+
+/*=====================service part start====================================*/
+#service {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background: #f3f3f3;
+}
+
+.serv-top {
+    padding-top: 44px;
+}
+
+.service-text p {
+    font-family: 'lato', 'SiyamRupali', sans-serif;
+    color: #333;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: capitalize;
+    line-height: 24px;
+}
+
+.serv-type h3 {
+    font-family: 'lato', 'SiyamRupali', sans-serif;
+    color: #333;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: capitalize;
+    padding-bottom: 20px;
+    padding-top: 25px;
+}
+
+.serv-list p {
+    font-family: 'lato', 'SiyamRupali', sans-serif;
+    color: #333;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 24px;
+    padding-bottom: 10px;
+}
+
+.feature-top {
+    padding-top: 10px;
+}
+
+.feature-item {
+    padding: 27px 27px;
+    background: #fff;
+    position: relative;
+}
+
+.feature-item::before {
+    position: absolute;
+    content: '';
+    left: 0;
+    top: 0;
+    width: 2px;
+    height: 0%;
+    background: #e81a46;
+    opacity: 0;
+    transition: all linear 0.2s;
+}
+
+.feature-item:hover:before {
+    opacity: 1;
+    height: 100%;
+}
+
+.feature-item::after {
+    position: absolute;
+    content: '';
+    top: 0;
+    right: 0;
+    left: 0;
+    width: 0%;
+    height: 2px;
+    background: #e81a46;
+    opacity: 0;
+    transition: all linear 0.2s;
+}
+
+.feature-item:hover:after {
+    opacity: 1;
+    width: 100%;
+}
+
+.feature-item i {
+    font-size: 30px;
+    color: #e81a46;
+}
+
+.feature-item h4 {
+    font-family: 'Roboto', 'SiyamRupali', inherit sans-serif;
+    color: #202e31;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    line-height: 22px;
+    padding-top: 18px;
+    padding-bottom: 16px;
+}
+
+.feature-item p {
+    font-family: 'lato', 'SiyamRupali', sans-serif;
+    color: #222;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: capitalize;
+    line-height: 24px;
+
+}
+
+.feature-bottom {
+    padding: 0 7px 15px 8px;
+}
+
+/*=====================service part end====================================*/
+
+
+
+/*=====================testimonial part start====================================*/
+#testimonial {
+    background: #9a959b40;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    position: relative;
+}
+
+
+.test-header h3 {
+    color: #222;
+    text-shadow: none;
+    text-transform: capitalize;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.test-header h3::before {
+    position: absolute;
+    content: '';
+    left: 20px;
+    bottom: -16px;
+    width: 80px;
+    height: 4px;
+    background: #e81a46;
+}
+
+.test-header i {
+    color: #e81a46;
+}
+
+.test-slider {
+    margin-top: 66px;
+}
+
+.test-item {
+    padding-top: 30px;
+}
+
+.test-text {
+    padding: 47px 30px 25px 30px;
+    background: #fff;
+    position: relative;
+}
+
+.test-text::before {
+    position: absolute;
+    content: '';
+    left: 60px;
+    bottom: -28px;
+    width: 43px;
+    height: 40px;
+    background: #fff;
+    clip-path: polygon(0 0, 72% 89%, 67% 0);
+}
+
+.test-icon {
+    position: absolute;
+    top: -25px;
+    left: 19px;
+}
+
+.test-icon i {
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 24px;
+    border-radius: 50%;
+    background: #e81a46;
+    color: #fff;
+}
+
+.test-text p {
+    font-family: 'Roboto', 'SiyamRupali', sans-serif;
+    color: #222;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 24px;
+}
+
+.test-img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    overflow: hidden;
+    background: #fff;
+    margin-top: 35px;
+    margin-left: 79px;
+}
+
+.testimonial-text h4 {
+    padding-top: 55px;
+    color: #e81a46;
+    font-family: 'Roboto', 'SiyamRupali', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.testimonial-text p {
+    color: #222;
+    font-family: 'Roboto', 'SiyamRupali', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: capitalize;
+    padding-top: 4px;
+}
+
+/*=====================testimonial part end====================================*/
+
+
+
+/*=============================contact part start     ==============================*/
+
+#contacts {
+    padding-top: 58px;
+    padding-bottom: 59px;
+    background: rgba(0, 0, 0, 0.95);
+}
+
+.part1 h3 {
+    font-family: 'Roboto', 'SiyamRupali', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: #fff;
+    text-transform: capitalize;
+}
+
+.part1 p {
+    font-family: 'lato', 'SiyamRupali', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #fff;
+    line-height: 24px;
+    text-transform: capitalize;
+    padding-top: 17px;
+}
+
+.part1-icon h6 {
+    font-family: 'lato', 'SiyamRupali', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #fff;
+    text-transform: capitalize;
+    padding-bottom: 10px;
+}
+
+.part1-icon {
+    padding-top: 21px;
+    padding-left: 5px;
+}
+
+.part1-icon i {
+    padding-right: 6px;
+    color: #e81a46;
+}
+
+.socials-icon {
+    padding-top: 14px;
+}
+
+.socials-icon h5 {
+    font-family: 'Roboto', 'SiyamRupali', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #fff;
+    text-transform: capitalize;
+}
+
+.socials-icon i {
+    font-size: 14px;
+    color: #fff;
+    padding-right: 15px;
+    cursor: pointer;
+
+
+}
+
+.socials-icon span {
+    padding-right: 15px;
+}
+
+.socials-icon i:hover {
+
+    color: #e81a46;
+    transition: all linear 0.2s;
+}
+
+.part2-icon {
+    padding-top: 16px;
+
+}
+
+.part2-icon i {
+    font-size: 12px;
+    padding-right: 6px;
+    color: #e81a46;
+}
+
+.part2-icon a {
+    display: block;
+    text-decoration: none;
+    font-family: 'Roboto', 'SiyamRupali', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #fff;
+    text-transform: capitalize;
+    transition: all linear 0.2s;
+    padding-bottom: 9px
+}
+
+.part2-icon a:hover {
+    color: #e81a46;
+    padding-left: 5px;
+}
+
+.part4 p {
+    font-family: 'lato', 'SiyamRupali', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #fff;
+    line-height: 24px;
+    text-transform: capitalize;
+    padding-top: 17px;
+}
+
+.part-time {
+    padding-top: 16px;
+}
+
+.part-time h6 {
+    font-family: 'lato', 'SiyamRupali', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: #fff;
+    line-height: 24px;
+    text-transform: capitalize;
+    padding-bottom: 2px
+}
+
+.part-time span {
+    color: #41de52;
+}
+
+#last-part {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background: #030211e8;
+}
+
+.last-text p {
+    color: #fff;
+    font-family: 'Roboto', 'SiyamRupali', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+/*=============================contact part end       ==============================*/
+
+
+
+/*=============================back-top part start     ==============================*/
+
+.back-top i {
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    background: #e81a46;
+    font-size: 24px;
+    color: #fff;
+}
+
+.back-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 999999;
+    display: none;
+
+}
+
+
+/*=============================back-top part end     ==============================*/
+
+
+
+
+/*===========================================contact page start====================*/
+
+
+
+
+
+
+/*=====================breadcumb  part start========================================*/
+
+#breadcumbs {
+    padding-top: 113px;
+    padding-bottom: 120px;
+    background: url(../image/ban22.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+#breadcumbs:before {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: 0.6;
+}
+
+.bread-text h2 {
+    color: #fff;
+    font-family: 'Roboto', 'SiyamRupali', sans-serif;
+    font-size: 36px;
+    font-weight: 600;
+    text-transform: capitalize;
+    padding-bottom: 14px;
+}
+
+.bread-text h4 {
+    color: #e81a46;
+    font-family: 'lato', 'SiyamRupali', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+.bread-text a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.bread-text a:hover {
+    color: #e81a46;
+}
+
+.bread-text i {
+    font-size: 14px;
+    margin: 0 7px;
+}
+
+
+
+
+
+/*===============address part===================*/
+
+#address {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.add-1 {
+	padding: 30px;
+	border: 1px solid #ddd;
+	background: #f3f3f3;
+	margin-bottom: 10px;
+}
+
+.add-1:hover {
+    border: 1px solid #e81a46;
+}
+
+.add-icon i {
+    width: 90px;
+    height: 90px;
+    text-align: center;
+    line-height: 90px;
+    border-radius: 50%;
+    background: #e81a46;
+    font-size: 30px;
+    color: #fff;
+}
+
+.add-icon {
+    padding-bottom: 22px;
+}
+
+.add-1 h4 {
+    font-family: 'Roboto', 'SiyamRupali', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: #222;
+    text-transform: capitalize;
+}
+
+.add-1 p {
+    font-family: 'lato', 'SiyamRupali', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #444;
+    padding-top: 16px;
+    padding-bottom: 3px;
+}
+
+.add-1 h5 {
+    font-family: 'lato', 'SiyamRupali', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #444;
+    text-transform: capitalize;
+
+}
+
+.contact-page .contact-field button {
+    top: 83px;
+}
+
+#otherpage .test-header h3::before {
+    background: #444;
+}
+
+#otherpage .test-header h3 {
+    color: #fff;
+    font-family: 'lato', 'SiyamRupali', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    position: relative;
+}
+
+#otherpage .test-header h3::before {
+    position: absolute;
+    content: '';
+    left: 4px;
+    bottom: -11px;
+    width: 60px;
+    height: 4px;
+    background: #e81a46;
+}
+
+
+/*=====================form part start========================================*/
+#form {
+    padding-top: 90px;
+    padding-bottom: 85px;
+    background: #272a2d;
+    position: relative;
+}
+
+.form-top {
+    padding-top: 69px;
+}
+
+.field {
+    padding-bottom: 25px;
+}
+
+.field p {
+    padding-bottom: 14px;
+    font-family: 'lato', 'SiyamRupali', sans-serif;
+    color: #f3f3f3;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+.field input {
+    width: 100%;
+    height: 50px;
+    border: 1px solid #666;
+    padding-left: 15px;
+    font-family: 'lato', 'SiyamRupali', sans-serif;
+    color: #666;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: capitalize;
+    border: 1px solid #ddd;
+    background: #fff;
+}
+
+.field input:focus {
+    border: 2px solid #1a8585;
+    ;
+}
+
+.field select:focus {
+    border: 2px solid #1a8585;
+}
+
+.field textarea:focus {
+    border: 2px solid #1a8585;
+}
+
+.field select {
+    width: 100%;
+    height: 50px;
+    border: 1px solid #ddd;
+    padding-left: 15px;
+    font-family: 'lato', 'SiyamRupali', sans-serif;
+    color: #666;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: capitalize;
+    background: #fff;
+}
+
+.field textarea {
+    width: 100%;
+    height: 150px;
+    border: 1px solid #ddd;
+    padding-left: 15px;
+    padding-top: 15px;
+    font-family: 'lato', 'SiyamRupali', sans-serif;
+    color: #666;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+.form-btn button {
+    padding: 15px 30px;
+    background: #e81a46;
+    font-family: 'lato', 'SiyamRupali', sans-serif;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: capitalize;
+    border: 0;
+    position: relative;
+    z-index: 1;
+    transition: all linear 0.2s;
+    cursor: pointer;
+}
+
+.form-btn button:before {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    background: #fff;
+    opacity: 0;
+    transition: all linear 0.2s;
+    z-index: -1;
+}
+
+.form-btn {
+    padding-top: 6px;
+}
+
+.form-btn button:hover {
+    color: #222;
+}
+
+.form-btn button:focus {
+    outline: 0;
+}
+
+.form-btn button:hover:before {
+    opacity: 1;
+    width: 100%;
+}
+
+.error {
+    font-family: 'lato', 'SiyamRupali', sans-serif;
+    color: #e81a46;
+    font-size: 14px;
+    font-weight: 300;
+    text-transform: capitalize;
+    padding-top: 5px;
+}
+
+
+/*=====================form  part end========================================*/
+
+
+#map iframe {
+    width: 100%;
+    height: 500px;
+}
+
+/*=====================contact  part end========================================*/
+
+
+/*=====================about page  part start========================================*/
+
+#about {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.about-text {
+    padding-top: 40px;
+}
+
+.about-text p {
+    font-family: 'lato', 'SiyamRupali', sans-serif;
+    color: #444;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: capitalize;
+    padding-bottom: 25px;
+}
+
+.about-item {
+    border: 1px solid #f3f3f3;
+    position: relative;
+}
+
+.about-item:before {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.about-item img {
+    width: 100%;
+    height: 400px;
+}
+
+.about-left {
+    padding-top: 40px;
+}
+
+.about-left p {
+    font-family: 'lato', 'SiyamRupali', sans-serif;
+    color: #444;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+.about-list {
+    padding-top: 30px;
+    margin-left: 30px;
+}
+
+.about-list p {
+    font-family: 'Roboto', 'SiyamRupali', sans-serif;
+    color: #222;
+    font-size: 13px;
+    font-weight: 500;
+    text-transform: capitalize;
+    line-height: 24px;
+}
+
+.about-info {
+    padding-top: 20px;
+}
+
+.about-img-top {
+    padding-top: 60px;
+}
+
+.about-bottom {
+    padding-bottom: 44px;
+}
+
+.about-img {
+    position: relative;
+}
+
+.about-img::before {
+    position: absolute;
+    content: '';
+    left: 0;
+    width: 100%;
+    height: 0%;
+    background: rgba(26, 76, 24, 0.26);
+    opacity: 0;
+    transition: all linear 0.3s;
+}
+
+.about1-item:hover .about-img:before {
+    opacity: 1;
+    height: 100%;
+    top: 0;
+}
+
+.about1-item {
+    position: relative;
+}
+
+/*=====================about page  part end========================================*/
+
+
+
+
+/*=====================product details page  part start======================================*/
+
+#product-details {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.details-item {
+    border: 1px solid #666;
+
+}
+
+.details-item:hover .p-img img {
+    transform: scale(1.2);
+}
+
+.p-img img {
+    width: 100%;
+    height: 394px;
+    transition: all linear 0.2s;
+}
+
+.p-img {
+    overflow: hidden;
+}
+
+.details-bottom {
+    padding-bottom: 54px;
+}
+
+.mini-slider-top {
+    padding-top: 30px;
+
+}
+
+.products-img {
+    position: relative;
+}
+
+.mini-left {
+    position: absolute;
+    bottom: 14%;
+    left: 2%;
+    z-index: 111;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    line-height: 35px;
+    border-radius: 50%;
+    background: #f3f3f3;
+    font-size: 13px;
+    color: #ea1d1d;
+}
+
+.mini-right {
+    position: absolute;
+    bottom: 14%;
+    right: 2%;
+    z-index: 111;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    line-height: 35px;
+    border-radius: 50%;
+    background: #f3f3f3;
+    font-size: 13px;
+    color: #ea1d1d;
+}
+
+
+
+/*=====================img zoom*/
+
+#exzoom {
+    width: 400px;
+}
+
+.exzoom .exzoom_btn a {
+    width: 25px;
+}
+
+.exzoom .exzoom_btn a:hover {
+    background: red;
+}
+
+.exzoom_img_box .exzoom_img_ul img {
+    width: 400px !important;
+    margin: 0 !important;
+    height: 407px;
+}
+
+
+.exzoom .exzoom_nav .exzoom_nav_inner span img {
+    max-width: 100%;
+    max-height: 100%;
+    position: relative;
+    top: 0 !important;
+    width: 75px !important;
+    height: 75px !important;
+    left: 0 !important;
+    cursor: pointer;
+}
+
+.exzoom_nav_inner{
+
+	width: 282px!important;
+	left: 69px!important;
+}
+.exzoom .exzoom_btn a.exzoom_next_btn {
+	left: auto;
+	right: 40px;
+}
+.exzoom .exzoom_btn a.exzoom_prev_btn {
+	left: 40px;
+	right: 0;
+}
+.exzoom .exzoom_btn a {
+	height: 40px;
+	line-height: 40px;
+	top: -46px;
+
+}
+
+.exzoom .exzoom_nav {
+    margin-top: 10px;
+    overflow: hidden;
+    position: relative;
+    left: 30px;
+}
+
+.p-detail-header h3 {
+    font-family: 'Roboto', 'SiyamRupali', sans-serif;
+    color: #222;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.p-detail-header {
+    padding-top: 30px;
+}
+
+.p-icon {
+    padding-top: 10px;
+
+}
+
+.partner-img img {
+    width: 100px;
+    height: 134px;
+    transition: all linear 0.2s;
+}
+
+.partner-items:hover .partner-img img {
+    transform: scale(1.1);
+}
+
+.partner-items {
+    position: relative;
+
+}
+
+.partner-item h3 {
+    font-family: 'lato', 'SiyamRupali', sans-serif;
+    color: #222;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding-bottom: 25px;
+}
+
+.partner-items::before {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.07);
+    z-index: 111;
+}
+
+.p-icon i {
+    color: #e81a46;
+}
+
+.p-icon p {
+    font-family: 'Roboto', 'SiyamRupali', sans-serif;
+    color: #222;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+.p-details-text {
+    padding-top: 30px;
+}
+
+.p-details-text p {
+    font-family: 'lato', 'SiyamRupali', sans-serif;
+    color: #444;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 24px;
+}
+
+.details-top {
+    padding-top: 25px;
+}
+
+.partner-item {
+    padding-top: 80px;
+}
+
+.partner-item p {
+    font-family: 'lato', 'SiyamRupali', sans-serif;
+    color: #444;
+    font-size: 13px;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 24px;
+    padding-top: 40px;
+}
+
+.details-info p {
+    font-family: 'lato', 'SiyamRupali', sans-serif;
+    color: #444;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding-bottom: 5px;
+}
+
+.details-info1 p {
+    font-family: 'lato', 'SiyamRupali', sans-serif;
+    color: #444;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding-bottom: 5px;
+}
+
+.p-details-icon {
+    padding-top: 11px;
+}
+
+.p-details-icon i {
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 26px;
+    background: #e81a46;
+    font-size: 12px;
+    color: #fff;
+}
+
+.icons-text {
+    padding-top: 17px;
+}
+
+
+/*=====================tabs part start==================*/
+
+#otherpage #contact1 {
+    padding-top: 52px;
+    padding-bottom: 57px;
+    background: #f3f3f3;
+}
+
+.contact1-top {
+    padding-top: 25px;
+
+}
+
+.tabs-form {
+    padding-top: 50px;
+}
+
+#otherpage .nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+    color: #4189de;
+    background-color: none;
+    border-color: 0;
+}
+
+#otherpage .tabs-top {
+    padding-top: 60px;
+}
+
+#otherpage .tab-link {
+    padding: 15px 30px;
+    font-family: 'Roboto', 'SiyamRupali', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    color: #444;
+    text-transform: capitalize;
+    border-bottom: 2px solid #d28c8c;
+}
+
+/*#otherpage .nav-tabs .nav-item {
+	margin-right: 5px;
+	border:1px solid #f3f3f3;
+}*/
+
+#otherpage .tab-link:focus,
+.tab-link:hover {
+    text-decoration: none;
+    background: #e81a46;
+    color: #fff !important;
+    color: #fff;
+}
+
+#otherpage .nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+    color: #fff !important;
+    background: #e81a46;
+}
+
+#otherpage .tab-pane {
+    background: #f3f3f3;
+    padding: 25px 30px 30px 30px;
+}
+
+#otherpage .tabs-discription h3 {
+    font-family: 'Roboto', 'SiyamRupali', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    color: #222;
+    text-transform: capitalize;
+}
+
+#otherpage .tabs-discription p {
+    font-family: 'lato', 'SiyamRupali', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #444;
+    line-height: 26px;
+    text-transform: capitalize;
+    padding-top: 17px;
+}
+
+#otherpage .tabs-text h4 {
+    font-family: 'lato', 'SiyamRupali', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    color: #222;
+    text-transform: capitalize;
+}
+
+#otherpage .rev-text h5 {
+    font-family: 'lato', 'SiyamRupali', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    color: #444;
+    text-transform: capitalize;
+}
+
+#otherpage .tabs-icon i {
+    color: #e81a46;
+    font-size: 14px;
+}
+
+#otherpage .tabs-icon {
+    padding-top: 3px;
+
+}
+
+#otherpage .rev-text p {
+    font-family: 'lato', 'SiyamRupali', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    color: #444;
+    line-height: 26px;
+    text-transform: capitalize;
+    padding-top: 18px;
+}
+
+
+#otherpage .form-left {
+    padding-left: 60px;
+    padding-top: 25px;
+}
+
+#otherpage .tab h3 {
+    font-family: 'lato', 'SiyamRupali', sans-serif;
+    font-weight: 600;
+    font-size: 18px !important;
+    color: #222;
+    text-transform: capitalize;
+}
+
+#otherpage .rate-box a {
+    margin-right: 15px;
+    font-size: 14px;
+    color: #e81a46;
+    text-decoration: none;
+}
+
+#otherpage .rate-box {
+    padding-left: 0;
+}
+
+#otherpage .rate p {
+    font-family: 'lato', 'SiyamRupali', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color: #444;
+    text-transform: capitalize;
+}
+
+.tabs-discription h3 {
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+#otherpage #inner-contact {
+    padding-top: 92px;
+    padding-bottom: 100px;
+}
+
+#otherpage .inner-field input {
+    width: 100%;
+    height: 50px;
+    border: 2px solid #ddd;
+    border-radius: 4px;
+    padding-left: 15px;
+    font-family: 'Roboto', 'SiyamRupali', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    color: #444;
+    text-transform: capitalize;
+}
+
+#otherpage .inner-field input:focus {
+    border: 1px solid #e81a46;
+}
+
+#otherpage .inner-field textarea:focus {
+    border: 1px solid #e81a46;
+}
+
+#otherpage .inner-field select {
+    width: 100%;
+    height: 50px;
+    border: 2px solid #ddd;
+    border-radius: 4px;
+    padding-left: 15px;
+    font-family: 'Roboto', 'SiyamRupali', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    color: #444;
+    text-transform: capitalize;
+    background: transparent;
+}
+
+#otherpage .inner-feild select option {
+    font-family: 'lato', 'SiyamRupali', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    color: #444;
+    text-transform: capitalize;
+}
+
+#otherpage .inner-field {
+    padding-top: 27px;
+}
+
+#otherpage .inner-field textarea {
+    width: 100%;
+    height: 160px;
+    border: 2px solid #ddd;
+    border-radius: 4px;
+    padding-left: 15px;
+    padding-top: 9px;
+    font-family: 'lato', 'SiyamRupali', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    color: #444;
+    text-transform: capitalize;
+}
+
+#otherpage .inner-form h3 {
+    font-family: 'Roboto', 'SiyamRupali', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    color: #444;
+    text-transform: capitalize;
+}
+
+#otherpage .forms-btn button {
+    padding: 15px 30px;
+    border: 0;
+    background: #e81a46;
+    font-family: 'Roboto', 'SiyamRupali', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    color: #fff;
+    text-transform: uppercase;
+    border: 1px solid #e81a46;
+}
+
+#otherpage .forms-btn button:hover {
+    background: #fff;
+    color: #e81a46;
+
+}
+
+#otherpage .contact-top {
+    padding-left: 45px;
+}
+
+#otherpage .forms-btn {
+    padding-top: 30px;
+}
+
+.details h3 {
+    font-family: 'Roboto', 'SiyamRupali', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    color: #444;
+    text-transform: capitalize;
+}
+
+.details {
+    padding-bottom: 27px;
+}
+
+.details-text h4 {
+    font-family: 'Roboto', 'SiyamRupali', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    color: #444;
+    text-transform: capitalize;
+    padding-bottom: 4px;
+}
+
+.details-text p {
+    font-family: 'lato', 'SiyamRupali', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #444;
+    text-transform: capitalize;
+}
+
+.details-icon i {
+    font-size: 24px;
+    color: #4189de;
+    padding-top: 5px
+}
+
+.details-text {
+    padding-left: 2px;
+}
+
+.details-top {
+    padding-bottom: 20px;
+}
+
+/*.social-icon i{
+	padding-right: 12px;
+	font-size: 16px;
+	color:#444;
+}*/
+.social-icon i:hover {
+    color: #fff;
+    font-size: 18px
+}
+
+.inner-contact2 {
+    padding-left: 5px;
+}
+
+.otherpage.contact-icon {
+    padding-left: 5px;
+}
+
+#otherpage .subs-form input {
+    height: 50px;
+}
+
+/*=============relate product part start===================*/
+#rel-product {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background: #f3f3f3;
+
+}
+
+.rel-item {
+    padding: 5px 5px 18px 5px;
+    background: #fff;
+
+}
+
+.rel-item:hover .rel-img img {
+    transform: scale(1.1);
+}
+
+.related-pro {
+    padding-top: 55px;
+}
+
+.rel-img img {
+    width: 250px;
+    transition: all linear 0.2s;
+}
+
+.related-pro a {
+    text-decoration: none;
+}
+
+.related-pro a:focus {
+    outline: 0
+}
+
+.rel-item:hover .rel-text h3 {
+    color: red;
+}
+
+.rel-img {
+    overflow: hidden;
+
+}
+
+.rel-text h3 {
+    font-family: 'lato', 'SiyamRupali', sans-serif;
+    font-weight: 500;
+    color: #222;
+    font-size: 14px;
+    text-transform: capitalize;
+    padding-top: 15px;
+}
+
+
+.table table {
+    width: 100%;
+    background: #fff;
+    padding: 30px;
+    margin-top: 30px;
+}
+
+.label1 {
+    font-family: 'lato', 'SiyamRupali', sans-serif;
+    font-weight: 500;
+    color: #222;
+    font-size: 14px;
+    text-transform: capitalize;
+}
+
+.table td,
+.table th {
+    padding: .75rem;
+    vertical-align: 0;
+    border-top: none;
+}
+
+.about1-item {
+    padding-bottom: 15px;
+    border: 1px solid #ddd;
+}
+
+.about1-item a {
+    text-decoration: none;
+    font-family: 'lato', 'SiyamRupali', sans-serif;
+    font-weight: 500;
+    color: #222;
+    font-size: 15px;
+    text-transform: capitalize;
+}
+
+.about1-item a:hover {
+    color: red;
+    background: #f6f6f6;
+}
+
+
+
+.about-slider-text {
+    padding-top: 15px;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*=====================product details page  part end========================================*/
+
+/*=====================dealer page  part start========================================*/
+
+/*=====================dealer page  part start========================================*/
+#dealer {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.dealer-category h3 {
+    font-family: 'lato', 'SiyamRupali', sans-serif;
+    font-weight: 500;
+    color: #222;
+    font-size: 17px;
+    text-transform: capitalize;
+    padding-bottom: 25px;
+    position: relative;
+
+}
+
+.dealer-category h3::before {
+    position: absolute;
+    content: '';
+    bottom: 15px;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background: #d74b4b;
+}
+
+.dealer-category a {
+    font-family: 'lato', 'SiyamRupali', sans-serif;
+    font-weight: 500;
+    color: #222;
+    font-size: 14px;
+    text-transform: capitalize;
+}
+
+.dealer-category a.active {
+    color: #e81a46; 
+}
+
+.dealer-category a:hover {
+    color: #e81a46;
+    ;
+}
+
+.dealer-category {
+    background: #FFFFFF;
+    padding: 20px 20px;
+    margin-top: 10px;
+    border: 1px solid #DDDDDD;
+}
+
+.dealer-brand h3 {
+    font-family: 'lato', 'SiyamRupali', sans-serif;
+    font-weight: 500;
+    color: #222;
+    font-size: 17px;
+    text-transform: capitalize;
+    padding-bottom: 25px;
+    position: relative;
+
+
+}
+
+.dealer-brand h3::before {
+    position: absolute;
+    content: '';
+    bottom: 15px;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background: #d74b4b;
+}
+
+
+.dealer-brand a {
+    font-family: 'lato', 'SiyamRupali', sans-serif;
+    font-weight: 500;
+    color: #222;
+    font-size: 14px;
+    text-transform: capitalize;
+
+}
+.dealer-brand a.active {
+    color: #e81a46; 
+}
+.dealer-brand a:hover {
+    color: #e81a46;
+    ;
+}
+
+.dealer-brand {
+    background: #FFFFFF;
+    padding: 20px 20px;
+    margin-top: 10px;
+    border: 1px solid #DDDDDD;
+
+}
+
+.dealer-header h3 {
+    font-family: 'Roboto', 'SiyamRupali', sans-serif;
+    font-weight: 500;
+    color: #444;
+    font-size: 18px;
+    text-transform: uppercase;
+    padding-top: 17px;
+}
+
+.dealer-form {
+    position: relative;
+}
+
+.dealer-form input {
+    width: 83%;
+    height: 45px;
+    border: 1px solid #cebfbf;
+    padding-left: 20px;
+}
+.dealer-form input:focus{
+	outline: 0;
+}
+.dealer-form button {
+    /* background: 0; */
+    border: 1px solid #e81a46;
+    height: 45px;
+    position: absolute;
+    right: 38px;
+    padding: 0 10px;
+    width: 57px;
+    font-family: 'Roboto', 'SiyamRupali', sans-serif;
+    font-weight: 400;
+    color: #fff;
+    font-size: 14px;
+    text-transform: capitalize;
+    background: #e81a46;
+}
+
+.dealer-top {
+    position: relative;
+}
+
+.dealer-top:before {
+    position: absolute;
+    content: '';
+    bottom: -20px;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background: #ddd;
+}
+
+.dealer-product {
+    position: relative;
+}
+
+.dealer-product::before {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(191, 198, 186, 0.39);
+    z-index: 111;
+}
+
+.dealer-product-top {
+    padding-top: 60px;
+}
+
+/*.dealer-item{
+	position: relative;
+}*/
+.dealer-product:hover .dealer-item img {
+    transform: scale(1.1);
+}
+
+.dealer-item img {
+    transition: all linear 0.2s;
+}
+
+.dealer-product {
+	overflow: hidden;
+	margin-bottom: 10px;
+	border: 1px solid #ddd;
+}
+
+.dealer-header span {
+    color: #e81a46;
+}
+
+.dealer-effect {
+    padding: 0 7px;
+}
+
+.dealer-item {
+    position: relative;
+    z-index: -1;
+}
+
+.dealer-text {
+    background: #fff;
+    padding: 10px 0px;
+    position: relative;
+    z-index: 111;
+}
+ .dealer-effect a{
+ 	text-decoration: none;
+
+ }
+ .dealer-product:hover .dealer-text h4{
+ 	color:red;
+ }
+
+.dealer-text h4 {
+    font-family: 'Roboto', 'SiyamRupali', sans-serif;
+    font-weight: 400;
+    color: #222;
+    font-size: 14px;
+    text-transform: capitalize;
+}
+
+.paginations {
+    text-align: center;
+}
+
+.paginations a {
+    text-decoration: none;
+    font-family: 'Roboto', 'SiyamRupali', sans-serif;
+    font-weight: 400;
+    color: #222;
+    font-size: 16px;
+    text-transform: capitalize;
+    padding: 10px 15px;
+    background: #f3f3f3;
+    margin: 0 0px;
+}
+
+.paginations a:hover {
+    color: #e81a46;
+    ;
+}
+
+.pagination-top {
+    padding-top: 50px
+}
+
+.paginations a:first-child {
+    color: #222;
+    border-radius: 10px 0 0 10px
+}
+
+.paginations a:first-child:hover {
+    background: #e81a46;
+    color: #fff;
+}
+
+.paginations a:last-child:hover {
+    background: #e81a46;
+    color: #fff;
+}
+
+.paginations a:last-child {
+    color: #222;
+    border-radius: 0 10px 10px 0;
+}
+
+.paginations a.active {
+    background: #e81a46;
+    color: #fff;
+}
+
+/*=====================dealer page  part end========================================*/
+
+ /*===================typed css=========================*/
+.typed::after {
+    content: '|';
+    display: inline;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+
+/*Removes cursor that comes with typed.js*/
+.typed-cursor{
+   opacity: 0;
+    display: none;
+}
+/*Custom cursor animation*/
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}

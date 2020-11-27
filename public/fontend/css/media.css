@@ -1,0 +1,1612 @@
+* {
+    margin: 0;
+    padding: ;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    margin: 0;
+}
+
+/*============================basic css part start================================*/
+
+
+
+
+
+@media (min-width: 1200px) {}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+
+    /*=================navbar part start=======================*/
+    .header-right i {
+        margin: 0 2px;
+    }
+
+    .search {
+        margin-left: -20px;
+    }
+
+    .navbar-expand-lg .navbar-nav .nav-link {
+	
+	font-size: 14px;
+	
+}
+
+
+
+    /*=======================category part start===========================*/
+    .category-list ul li:hover > ul {
+    
+       left: 200px;
+
+    }
+
+
+    /*=======================banner part start===========================*/
+
+    .ban-img {
+	top: 27%;
+	right: 4%;
+	width: 255px;
+	height: 255px;
+}
+
+   .banner-img img {
+        height: 544px;
+        width: 100%;
+    }
+
+  .ban-img img {
+	width: 235px;
+	height: 235px;
+	margin-top: 9px;
+	margin-left: 9px;
+	border-radius: 50%;
+}
+
+    .ban-text {
+	 top: 33%;
+	 left: 5%;
+	 width: 440px;
+}
+ /*=========================== team  part start========================*/
+
+   .team-padding{
+     padding-left: 8px;
+     padding-right: 8px;
+   }
+  .team-text {
+	
+	 top: 55%;
+	 
+  }
+
+
+  /*=========================== product page part start========================*/
+     .pro-top {
+	     padding-left: 9px;
+	     padding-right: 9px;
+    }
+
+   .left1 {
+	  right: 8%;
+     }
+
+    /*===========================best product page part start========================*/
+    .project-item img {
+        height: 100%;
+    }
+
+   .team-item:hover .team-overlay {
+	height: 538px;
+}
+
+    /*===========================testimonial part start========================*/
+
+
+    .customer {
+        margin-right: 30px;
+    }
+
+    /*===========================about page part start========================*/
+
+    .about-list {
+        padding-top: 15px;
+    }
+
+    .about-left p {
+        font-size: 13px;
+    }
+
+    .about-list p {
+        font-size: 12px;
+    }
+
+    .about-img-top {
+        padding-top: 18px;
+    }
+
+    /*=============================product-details page start=========================*/
+
+    .p-detail-header {
+        padding-top: 12px;
+    }
+
+    .p-details-icon {
+        padding-top: 11px;
+    }
+
+    .details-info1 {
+        width: 100px;
+    }
+
+    .p-img img {
+
+        height: 373px;
+    }
+
+    .partner-img img {
+        height: 128px;
+    }
+
+    .partner-item h3 {
+        font-size: 16px;
+        padding-bottom: 16px;
+    }
+
+    .partner-item {
+        padding-top: 41px;
+    }
+
+    .p-details-text {
+        padding-top: 25px;
+    }
+
+    #otherpage .tabs-top {
+        padding-top: 20px;
+    }
+
+    #otherpage .tabs-discription h3 {
+
+        font-size: 20px;
+
+    }
+
+    #otherpage #contact1 {
+        padding-top: 32px;
+        padding-bottom: 32px;
+    }
+
+    .tabs-discription h3 {
+        margin-bottom: 8px;
+    }
+
+    .comment-img {
+        padding-right: 0;
+    }
+
+    #otherpage .form-left {
+        padding-left: 0;
+    }
+
+    .inner-form {
+        padding-left: 70px;
+    }
+
+    .rel-img img {
+        width: 100%;
+    }
+
+    .details-p-top {
+
+        padding-left: 50px;
+    }
+
+
+
+
+}
+
+
+
+
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    .header-right i {
+        margin: 14px 4px;
+
+    }
+
+    .cat-top {
+        padding-bottom: 30px;
+    }
+
+    .navbar-expand-lg > .container,
+    .navbar-expand-lg > .container-fluid {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+
+    .navbar-light .navbar-toggler {
+        border: 0;
+    }
+
+
+
+
+    .navbar ul li {
+        line-height: 40px;
+        border-bottom: 1px solid #999;
+
+    }
+
+    .navbar ul li ul {
+        position: absolute;
+        background:#222;
+        width: 200px;
+        color: #fff;
+        left: 120px;
+        top: 0;
+        line-height: 40px;
+        padding-left: 0;
+        visibility: hidden;
+        opacity: 0;
+        transition: linear all 0.2s;
+        border-top: 3px solid #ba2727;
+        z-index: 111;
+    }
+
+    .navbar ul li:hover > ul {
+        opacity: 1;
+        visibility: visible;
+        top: 40px;
+    }
+
+    .search input {
+
+        margin-left: 28px;
+    }
+
+    .navbar-collapse {
+        background: #444;
+        margin-bottom: 30px;
+        margin-top: 15px;
+    }
+
+    .navbar-expand-lg .navbar-nav .nav-link {
+        color: #fff;
+
+    }
+
+    .search {
+        margin-top: 15px;
+        background: 0;
+        margin-bottom: 15px;
+        border-bottom: none !important;
+    }
+
+    .navbar ul li ul li ul {
+        position: absolute;
+        left: 150px;
+        top: 50px;
+        width: 200px;
+
+    }
+        
+
+      .navbar ul li ul li a {
+	   color: #fff;
+	
+}
+
+
+    /*==================================banner part start================================*/
+    .ban-img {
+        top: 25%;
+        right: 7%;
+        width: 235px;
+        height: 235px;
+    }
+
+   .ban-img img {
+	  width: 222px;
+	  height: 222px;
+	  margin-top: 6px;
+	  margin-left: 6px;
+	  border-radius: 50%;
+}
+
+    .ban-text {
+        top: 31%;
+        left: 6%;
+        width: 383px;
+    }
+
+    .banner-left1 {
+        left: 20px;
+    }
+
+    .banner-right1 {
+        right: 20px;
+
+    }
+
+    /*==================================product part start================================*/
+
+    .pro-top {
+        width: 50%;
+        padding-left: 9px;
+        padding-right: 9px;
+    }
+
+    .pro-top {
+        padding-top: 0px;
+    }
+
+    .pro-img {
+        text-align: center !important;
+    }
+    .pro-img img {
+	  width: 100%;
+     }
+
+    .right1 {
+        top: 2.5%;
+        right: 3%;
+    }
+
+    .left1 {
+        top: 2.5%;
+        right: 11%;
+    }
+
+   /* .p-left1 {
+        top: 8.5%;
+        right: 16%;
+    }
+
+    .p-right1 {
+        top: 8.5%;
+        right: 6%;
+    }*/
+
+    .product-item {
+
+        margin-bottom: 10px;
+    }
+
+    .slick-slide img {
+        display: inline;
+    }
+
+
+    /*=========================team part start===================*/
+    .team-item img {
+	    height: 100%;
+	    width: 100%;
+    }
+
+
+
+    /*=========================best product part start===================*/
+
+    .pro-padding {
+        width: 50%;
+        padding-left: 4px;
+        padding-right: 4px;
+        margin-bottom: 10px;
+    }
+
+    .feature-bottom {
+        width: 50%;
+    }
+
+    .project-btn button {
+        padding: 10px 15px;
+        margin-bottom: 10px;
+    }
+
+    .project-item img {
+
+        padding-left: 0px;
+    }
+
+    /*==============team part start====================*/
+    .team-padding {
+        width: 50%;
+        padding-bottom: 15px;
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+    .project-item img {
+	   width: 100%;
+	   height: 100%;
+   } 
+   
+   .team-item:hover .team-overlay {
+      height: 510px;
+   }
+
+
+    /*========================testimonial part start=====================*/
+
+    .testimonial-text {
+        width: 45%;
+    }
+
+    .customer {
+        width: 50%;
+    }
+
+    .test-img-top {
+        width: 55%;
+    }
+
+    /*========================contact  part start=====================*/
+
+
+    .contact-1 {
+        padding-bottom: 24px;
+    }
+
+    #contact {
+        padding-bottom: 26px;
+    }
+
+
+    /*========================about page  part start=====================*/
+
+    .about-item {
+
+        margin-bottom: 30px;
+    }
+
+    .about-img-top {
+        padding-top: 30px;
+    }
+
+    /*========================about page  part start=====================*/
+    .dealer-category {
+
+        width: 49%;
+        float: left;
+
+    }
+
+    .dealer-brand {
+        margin-top: 10px;
+        width: 49%;
+        float: left;
+        margin-left: 10px;
+    }
+
+    .dealer-top {
+        padding-top: 30px;
+    }
+
+    .dealer-effect {
+        width: 33.33%;
+    }
+
+
+    /*===========================product-details page part start==============================*/
+    .p-mini-item img {
+        width: 100%;
+    }
+
+    .p-detail-header {
+        padding-top: 0;
+    }
+
+    .p-details-text {
+        padding-top: 17px;
+    }
+
+    .details-top {
+        padding-top: 20px;
+    }
+
+    .details-info1 {
+        width: 100px;
+    }
+
+    .p-details-icon {
+        width: 185px;
+    }
+
+    .partner-item {
+        padding-top: 30px;
+    }
+
+    .partner-img img {
+        width: 100px;
+        height: 91px;
+    }
+
+    .mini1 {
+        padding: 0 4px;
+    }
+
+    .mini2 {
+        padding: 0 4px;
+    }
+
+    .mini3 {
+        padding: 0 4px;
+    }
+
+    .partner-item h3 {
+        font-size: 16px;
+        padding-bottom: 13px;
+    }
+
+    #otherpage .tabs-top {
+        padding-top: 19px;
+    }
+
+    #product-details {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    #otherpage #contact1 {
+        padding-top: 32px;
+        padding-bottom: 40px;
+    }
+
+    .contact1-top {
+        padding-top: 23px;
+    }
+
+    #otherpage .tabs-discription h3 {
+
+        font-size: 20px;
+
+    }
+
+    .tabs-discription h3 {
+        margin-bottom: 6px;
+    }
+
+    #otherpage .tab-pane {
+        padding: 25px 20px 30px 20px;
+    }
+
+    .tabs-form {
+        padding-top: 30px;
+    }
+
+    #otherpage .form-left {
+        padding-left: 15px;
+    }
+
+    .rel-img img {
+        width: 100%;
+    }
+
+    .details-p-top {
+        padding-left: 75px;
+    }
+
+    .p-details-text p {
+
+        font-size: 13px;
+
+    }
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+    /*====================category==============*/
+
+    .cat-top {
+        padding-bottom: 30px;
+    }
+
+
+
+    /*==============================navar part start=============================*/
+    .header-right i {
+        margin: 14px 4px;
+
+    }
+
+    .navbar-expand-lg > .container,
+    .navbar-expand-lg > .container-fluid {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+
+    .navbar-light .navbar-toggler {
+        border: 0;
+    }
+
+
+
+
+    .navbar ul li {
+        line-height: 40px;
+        border-bottom: 1px solid #999;
+
+    }
+
+    .navbar ul li ul {
+        position: absolute;
+        background:#222;
+        width: 200px;
+        color: #fff;
+        left: 120px;
+        top: 0;
+        line-height: 40px;
+        padding-left: 0;
+        visibility: hidden;
+        opacity: 0;
+        transition: linear all 0.2s;
+        border-top: 3px solid #ba2727;
+        z-index: 111;
+    }
+
+    .navbar ul li:hover > ul {
+        opacity: 1;
+        visibility: visible;
+        top: 40px;
+    }
+
+    .search input {
+
+        margin-left: 28px;
+    }
+
+    .navbar-collapse {
+        background: #444;
+        margin-bottom: 20px;
+    }
+
+    .navbar-expand-lg .navbar-nav .nav-link {
+        color: #fff;
+
+    }
+
+    .search {
+        margin-top: 15px;
+        background: 0;
+        margin-bottom: 15px;
+        border-bottom: none !important;
+    }
+
+    .navbar ul li ul li ul {
+        position: absolute;
+        left: 150px;
+        top: 50px;
+        width: 200px;
+
+    }
+
+
+
+
+
+
+    /*==============================banner part start=============================*/
+    .banner-img img {
+        height: 587px;
+    }
+    .ban-img img {
+	  width: 220px;
+	  height: 220px;
+	  margin-top: 6px;
+	  margin-left: 6px;
+	  border-radius: 50%;
+   }
+
+    .ban-img {
+        top: 14%;
+        right: 27%;
+        width: 233px;
+        height: 233px;
+    }
+
+    .ban-text {
+	  top: 57%;
+	  left: 15%;
+	  width: 433px;
+}
+
+    .banner-left1 {
+        left: 20px;
+    }
+
+    .banner-right1 {
+        right: 20px;
+
+    }
+
+    /*===========================product part start==================================*/
+    .pro-top {
+	 width: 50%;
+	 padding-left: 9px;
+	 padding-right: 9px;
+}
+    .pro-top {
+        padding-top: 0px;
+    }
+
+    .pro-img {
+        text-align: center !important;
+    }
+
+    .right1 {
+        top: 2.5%;
+        right: 4%;
+    }
+
+    .left1 {
+        top: 2.5%;
+        right: 14%;
+    }
+
+
+    .product-item {
+
+        margin-bottom: 10px;
+    }
+
+    /*.p-right1 {
+        top: 8.5%;
+        right: 7%;
+    }
+
+    .p-left1 {
+        top: 8.5%;
+        right: 17%;
+    }
+*/
+    .project-item img {
+
+        padding-left: 0px;
+    }
+
+    
+
+    /*==============team part start====================*/
+    .team-padding {
+        width: 50%;
+        padding-bottom: 15px;
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+     
+   
+    /*=========================best product part start===================*/
+
+    .pro-padding {
+        width: 50%;
+        padding-left: 4px;
+        padding-right: 4px;
+        margin-bottom: 10px;
+    }
+
+    .feature-bottom {
+        width: 50%;
+    }
+
+    .project-btn button {
+        padding: 10px 15px;
+        margin-bottom: 10px;
+    }
+
+    .project-item img {
+	   width: 100%;
+	   height: 100%;
+   }
+   
+
+
+
+    /*========================testimonial part start=====================*/
+    .testimonial-text {
+        width: 45%;
+    }
+
+    .customer {
+        width: 32%;
+    }
+
+    .test-img-top {
+        width: 55%;
+    }
+
+
+    /*========================contact  part start=====================*/
+
+
+    .contact-1 {
+        padding-bottom: 24px;
+    }
+
+    #contact {
+        padding-bottom: 26px;
+    }
+
+
+    /*========================contact page   part start=====================*/
+
+    .add-1 {
+        margin-bottom: 15px;
+    }
+
+    #address {
+        padding-top: 80px;
+        padding-bottom: 80px;
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+
+
+    /*========================about page part start=====================*/
+    #breadcumbs {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+
+    #about {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    .about-item {
+        margin-bottom: 26px;
+    }
+
+    .about-img-top {
+        padding-top: 32px;
+    }
+
+    /*==================dealer page star==================t*/
+    .dealer-header {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    .dealer-item img {
+        width: 100%;
+    }
+
+    .dealers-header {
+        text-align: center;
+    }
+
+    .dealer-header h3 {
+
+        font-size: 14px;
+        padding-top: 0;
+    }
+
+    .dealer-effect {
+        width: 50%;
+    }
+
+    .dealer-category {
+
+        width: 49%;
+        float: left;
+
+    }
+
+    .dealer-brand {
+        margin-top: 10px;
+        width: 49%;
+        float: left;
+        margin-left: 6px;
+    }
+
+    .dealer-top {
+        padding-top: 30px;
+    }
+
+
+
+    /*==================product-details page part start========================*/
+
+    .partner-item {
+        padding-top: 29px;
+    }
+
+    #otherpage .tabs-top {
+        padding-top: 30px;
+    }
+
+    #otherpage .form-left {
+        padding-left: 0;
+    }
+
+    #otherpage .tab-pane {
+        padding: 25px 15px 30px 15px;
+    }
+
+    #otherpage .inner-field {
+        padding-top: 18px;
+    }
+
+   .rel-img img {
+	width: 100%;
+}
+
+   /* #exzoom {
+        width: 461px;
+        text-align: center !important;
+        padding-left: 48px;
+    }
+
+    .exzoom_img_box .exzoom_img_ul img {
+        width: 459px !important;
+        margin: 0 !important;
+        height: 459px;
+    }
+
+*/
+.product-information{
+	overflow: hidden;
+}
+
+ .navbar ul li ul li a {
+	   color: #fff;
+	
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*============================xtra device part start===================================*/
+@media (max-width: 575.98px) {
+
+    #header {
+        display: none;
+    }
+
+    .navbar-expand-lg > .container,
+    .navbar-expand-lg > .container-fluid {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+
+    .navbar-light .navbar-toggler {
+        border: 0;
+    }
+
+
+
+    .navbar ul li {
+        line-height: 40px;
+        border-bottom: 1px solid #999;
+
+    }
+
+    .navbar ul li ul {
+        position: absolute;
+        background: #222;
+        width: 200px;
+        color: #fff;
+        left: 120px;
+        top: 0;
+        line-height: 40px;
+        padding-left: 0;
+        visibility: hidden;
+        opacity: 0;
+        transition: linear all 0.2s;
+        border-top: 3px solid red;
+        z-index: 111;
+    }
+
+    .navbar ul li:hover > ul {
+        opacity: 1;
+        visibility: visible;
+        top: 40px;
+    }
+
+    .search input {
+
+        margin-left: 28px;
+    }
+
+    .navbar-collapse {
+        background: #444;
+        margin-bottom: 30px;
+        margin-top: 15px;
+
+    }
+
+    .navbar-expand-lg .navbar-nav .nav-link {
+        color: #fff;
+
+    }
+
+    .navbar ul li ul li ul {
+        position: absolute;
+        left: 100px;
+        top: 50px;
+        width: 200px;
+
+    }
+  .navbar ul li ul li a {
+	   color: #fff;
+	
+}
+
+
+
+    .search {
+        margin-top: 15px;
+        background: 0;
+        margin-bottom: 15px;
+        border-bottom: none !important;
+    }
+
+
+
+    /*===========================category list part start=============================*/
+    .category-list ul li:hover > ul {
+        left: 140px;
+    }
+
+    .cat-top {
+        padding-bottom: 15px;
+    }
+
+    .ban-img {
+
+        display: none;
+    }
+    #banner{
+    	    overflow: hidden;
+    }
+    .ban-text {
+        position: relative;
+        top: 50%;
+        left: 53%;
+        width: 265px;
+        transform: translate(-50%, -50%);
+    }
+
+    .ban-text h2 {
+        font-size: 35px;
+
+    }
+
+    .banner-img img {
+        height: 375px;
+        width: 100%;
+    }
+
+
+    /*=====================product part start============================*/
+
+
+    .right1 {
+        top: 1.5%;
+        right: 5%;
+        font-size: 14px;
+        width: 38px;
+        height: 26px;
+        line-height: 26px;
+    }
+
+    .left1 {
+        top: 1.5%;
+        right: 18%;
+        font-size: 14px;
+        width: 42px;
+        height: 26px;
+        line-height: 26px;
+
+    }
+
+
+    .pro-top {
+        padding-top: 0px;
+    }
+
+    .pro-img {
+        text-align: center !important;
+    }
+    .pro-img img {
+	   width: 100%;
+    }
+
+    .product-item {
+
+        margin-bottom: 10px;
+    }
+
+    .slick-slide img {
+        display: inline;
+    }
+
+
+    /*======================team part start====================*/
+    .team-padding {
+        padding-bottom: 15px;
+    }
+    .team-item img {
+	   width: 100%;
+	   height: 100%;
+    }
+    .team-item:hover .team-overlay {
+	    height: 538px;
+     }
+
+   .team-text {
+	  top: 50%;  
+  }
+ 
+
+    .project-btn button {
+        padding: 10px 12px;
+        font-size: 13px;
+        margin-bottom: 8px;
+    }
+
+    
+     /*====================best product part start=========================*/
+
+    .pro-item-top {
+        margin-bottom: 0;
+    }
+
+    .pro-padding {
+
+        padding-bottom: 8px;
+    }
+
+    .contacts {
+        width: 50%;
+    }
+
+    .part1 {
+        padding-bottom: 28px;
+    }
+
+    .part4 p {
+        padding-top: 0;
+    }
+
+
+
+   .project-item img {
+
+	 width: 100%;
+	 height: 100%;
+}
+
+
+
+
+
+
+    /*====================testimonial part start=========================*/
+    /*.test-img-top{
+    width:55%;
+}
+.testimonial-text{
+    width:45%;
+}
+.customer{
+	width:32%;
+}*/
+
+    .testimonial-text {
+        width: 119px;
+    }
+
+    .customer {
+        width: 164px;
+    }
+
+    /*====================contact page  part start===========================*/
+    #breadcumbs {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+
+    .add-1 {
+        margin-bottom: 15px;
+    }
+
+    #address {
+        padding-top: 60px;
+        padding-bottom: 48px;
+    }
+
+    .form-top {
+        padding-top: 50px;
+    }
+
+    #form {
+        padding-top: 61px;
+        padding-bottom: 61px;
+    }
+
+    .field textarea {
+        height: 105px;
+    }
+
+    .field {
+        padding-bottom: 15px;
+    }
+
+    /*====================contact page  part start===========================*/
+
+
+
+    /*====================about page  part start===========================*/
+    #about {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    .about-slider {
+        padding-bottom: 30px;
+    }
+
+    .about-img-top {
+        padding-top: 40px;
+    }
+
+    .about-img img {
+        width: 100%;
+    }
+
+    /*=========================dealer page start=========================*/
+
+    #breadcumbs {
+        padding-top: 80px;
+        padding-bottom: 80px;
+
+    }
+
+    .dealer-header {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    .dealer-item img {
+        width: 100%;
+    }
+
+    .dealers-header {
+        text-align: center;
+    }
+
+    .dealer-header h3 {
+
+        font-size: 14px;
+    }
+
+    /*.dealer-category {
+	margin-left: 30px;
+	margin-right: 30px;
+}
+.dealer-brand {
+	margin-left: 30px;
+	margin-right: 30px;
+}*/
+
+    /*==================product-details part start============*/
+
+    #product-details {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    .details-infos {
+        width: 131px;
+    }
+
+    .details-info-top {
+        width: 154px;
+    }
+
+
+
+    .icons-text {
+        width: 105px;
+    }
+
+    .icons-icons {
+        width: 150px;
+    }
+
+    .mini-slider-top {
+        text-align: center;
+    }
+
+    .partner-item {
+        padding-top: 30px;
+    }
+
+    .partner-items {
+        margin-bottom: 10px;
+    }
+
+    .mini1 {
+        width: 50%;
+    }
+
+    .mini2 {
+        width: 50%;
+    }
+
+    .mini3 {
+        padding: 0 86px;
+    }
+
+    #otherpage .tabs-top {
+        padding-top: 15px;
+    }
+
+    #otherpage .tab-link {
+        padding: 15px 13px;
+        font-size: 13px;
+    }
+
+    #otherpage .tabs-discription h3 {
+        font-size: 20px;
+    }
+
+    #otherpage #contact1 {
+        padding-top: 30px;
+        padding-bottom: 50px;
+        padding-left: 10px;
+    }
+
+    #otherpage .inner-field {
+        padding-top: 15px;
+    }
+
+    #otherpage .form-left {
+        padding-left: 0;
+    }
+
+    #otherpage .tab-pane {
+        padding: 25px 0 30px 30px;
+    }
+
+    .inner-form {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .tabs-discription h3 {
+        margin-bottom: 0px;
+    }
+
+    .comment-img {
+        padding-bottom: 15px;
+    }
+
+    .table td,
+    .table th {
+        padding: 7px;
+        vertical-align: top;
+        border-top: 1px solid #dee2e6;
+    }
+
+
+
+
+
+
+
+.product-information{
+	overflow: hidden;
+}
+
+.exzoom .exzoom_btn a.exzoom_next_btn {
+	left: auto;
+	right: 110px;
+}
+.exzoom .exzoom_btn a.exzoom_prev_btn {
+	left: 8px;
+	right: 0;
+}
+.exzoom .exzoom_nav {
+	margin-top: 10px;
+	overflow: hidden;
+	position: relative;
+	left: -24px;
+}
+
+
+
+/*===========related product==================*/
+.rel-img img {
+	width: 100%;
+}
+
+
+}
+
+
+@media (min-width: 420px) and (max-width: 575.98px) {
+	  .pro-top {
+ 	     width: 50%;
+ 	     padding:0 9px;
+      }
+      .team-padding {
+	    width: 50%;
+	    padding-bottom: 15px;
+        padding-left: 8px;
+	    padding-right: 8px;
+     }
+}
+
+
+
+
+@media (min-width: 470px) and (max-width: 575.98px) {
+
+  
+
+
+   /* .team-padding {
+        width: 50%;
+        padding-bottom: 15px;
+        padding-left: 8px;
+        padding-right: 8px;
+    }*/
+
+    .pro-padding {
+        width: 50%;
+    }
+
+    .feature-bottom {
+        width: 50%;
+    }
+
+    .right1 {
+        top: 2.5%;
+        right: 5%;
+
+    }
+
+    .left1 {
+        top: 2.5%;
+        right: 18%;
+    }
+
+   
+
+    .dealer-product-top {
+        padding-top: 50px;
+    }
+
+    .dealer-category {
+
+        width: 47%;
+        float: left;
+
+    }
+
+    .dealer-brand {
+        margin-top: 10px;
+        width: 47%;
+        float: left;
+        margin-left: 10px;
+    }
+
+    .mini3 {
+        padding: 0 112px;
+    }
+
+    .ban-text {
+        top: 50%;
+        left: 53%;
+        width: 351px;
+    }
+   .products-name{
+	   padding-left:50px;
+    }
+    .team-text {
+	   top: 60%!important;
+   }
+
+
+}
+
+@media (min-width: 380px) and (max-width: 575.98px) {
+   .rel-img img {
+	width: 100%;
+}
+
+    .banner-right1 {
+        right: 25px;
+    }
+
+    .banner-left1 {
+
+        left: 25px;
+    }
+    .dealer-effect {
+	width: 50%;
+   }
+  
+
+
+
+
+}
+
+@media (min-width: 320px) and (max-width: 500px) {
+    .mini-right {
+        bottom: 7%;
+
+    }
+
+    .mini-left {
+        bottom: 7%;
+
+    }
+}
+   /* @media (min-width: 320px) and (max-width: 422px) {
+
+        #exzoom {
+            padding-left: 10px;
+        }
+
+
+
+
+    }*/
